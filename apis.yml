@@ -1,7 +1,28 @@
 aid: hedgeye
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hedgeye.png
 name: Hedgeye
-description: Hedgeye is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hedgeye Risk Management is an independent investment-research and financial-media firm founded in
+  2008 by Keith McCullough and headquartered in Stamford, Connecticut. Hedgeye sells subscription
+  research and market analysis to investors across macroeconomics, sector/vertical coverage, and
+  individual securities, delivered through daily notes, models, and its Hedgeye TV video platform,
+  newsletters, and live events. The company is best known for its data-driven, process-oriented
+  "GIP" (growth, inflation, policy) macro framework and its independent, no-conflicts positioning
+  relative to traditional Wall Street sell-side research. As surfaced in the API Evangelist network,
+  Hedgeye operates a consumer/subscriber web application at app.hedgeye.com but does not publish a
+  public developer program, API, SDK, or machine-readable discovery surface; this profile captures
+  the identity and domain-security posture that could be verified without authenticated access.
 url: https://raw.githubusercontent.com/api-evangelist/hedgeye/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Financial Services
+- Investment Research
+- Market Analysis
+- Financial Media
+- Macroeconomics
+- Subscription
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hedgeye-domain-security.yml
 - type: Website
   url: https://app.hedgeye.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
