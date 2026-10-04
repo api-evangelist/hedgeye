@@ -46,7 +46,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Investment Research
 - Market Analysis
 - Financial Media
@@ -60,6 +60,7 @@ tags_raw:
 - Financial Media
 - Macroeconomics
 - Subscription
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
